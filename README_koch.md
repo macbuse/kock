@@ -14,7 +14,7 @@ example Inkscape file
 
 ##Installation
 
-1. Edit the first line of koch_inx.py to point to your python installation if you don't use Anaconda on OSX.
+1. Edit the first line of koch.inx to point to your python installation if you don't use Anaconda on OSX.
 1. Copy the .inx and all the .py to inkscape extensions folder : For OS X - $HOME/.config/inkscape/extensions
 1.Open Inkscape.
 1. Activate via the Render submenu of Extensions menu.
