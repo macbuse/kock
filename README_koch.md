@@ -1,4 +1,6 @@
-#Inkscape extension to make Apollonian gaskets. Tested Inkscape 0.91.
+#Inkscape extension to make Koch snowflake. 
+
+Tested Inkscape 0.91.
 
 The Koch snowflake  is a mathematical curve and one of the earliest fractal curves to have been described.
 It is based on the Koch curve, which appeared in a 1904 paper titled "On a continuous curve without tangents, constructible from elementary geometry" (original French title: Sur une courbe continue sans tangente, obtenue par une construction géométrique élémentaire)[citation needed] by the Swedish mathematician Helge von Koch.
