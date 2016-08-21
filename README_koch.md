@@ -1,19 +1,20 @@
-Inkscape extension to make Apollonian gaskets. Tested Inkscape 0.91.
+#Inkscape extension to make Apollonian gaskets. Tested Inkscape 0.91.
 
-An Apollonian gasket can be constructed as follows. Start with three circles C1, C2 and C3, each one of which is tangent to the other two (in the general construction, these three circles can be any size, as long as they have common tangents). Apollonius discovered that there are two other non-intersecting circles, C4 and C5, which have the property that they are tangent to all three of the original circles – these are called Apollonian circles. Adding the two Apollonian circles to the original three, we now have five circles.
-
-Take one of the two Apollonian circles – say C4. It is tangent to C1 and C2, so the triplet of circles C4, C1 and C2 has its own two Apollonian circles. We already know one of these – it is C3 – but the other is a new circle C6. In a similar way we can construct another new circle C7 that is tangent to C4, C2 and C3, and another circle C8 from C4, C3 and C1. This gives us 3 new circles. We can construct another three new circles from C5, giving six new circles altogether. Together with the circles C1 to C5, this gives a total of 11 circles.
-
-Continuing the construction stage by stage in this way ad infinituum one obtains a set of circles which is an Apollonian gasket.
+The Koch snowflake  is a mathematical curve and one of the earliest fractal curves to have been described.
+It is based on the Koch curve, which appeared in a 1904 paper titled "On a continuous curve without tangents, constructible from elementary geometry" (original French title: Sur une courbe continue sans tangente, obtenue par une construction géométrique élémentaire)[citation needed] by the Swedish mathematician Helge von Koch.
+The progression for the area of the snowflake converges to 8/5 times the area of the original triangle,
+while the progression for the snowflake's perimeter diverges to infinity.
+Consequently, the snowflake has a finite area bounded by an infinitely long line.
+ 
 Source: Wikipedia
 
-Example Inkscape file
+##Example Inkscape file
 
 example Inkscape file
 
-Installation
+##Installation
 
-Edit the first line of apollon_inx.py to point to your python installation if you don't use Anaconda on OSX.
+Edit the first line of koch_inx.py to point to your python installation if you don't use Anaconda on OSX.
 Copy the .inx and all the .py to inkscape extensions folder : For OS X - $HOME/.config/inkscape/extensions
 Open Inkscape.
 Activate via the Render submenu of Extensions menu.
@@ -21,8 +22,6 @@ Dependencies
 
 Needs Anaconda python on OS X but should work with any python 2.7* installation after modifying as per installation instructions.
 
-Notes
+##Notes
 
-The module apollon_inx.py wraps Ludger Sandig's code for generating the circles of the gasket. In particular a slightly modified module ag.py.
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
+None
