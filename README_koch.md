@@ -14,11 +14,13 @@ example Inkscape file
 
 ##Installation
 
-Edit the first line of koch_inx.py to point to your python installation if you don't use Anaconda on OSX.
-Copy the .inx and all the .py to inkscape extensions folder : For OS X - $HOME/.config/inkscape/extensions
-Open Inkscape.
-Activate via the Render submenu of Extensions menu.
-Dependencies
+1. Edit the first line of koch_inx.py to point to your python installation if you don't use Anaconda on OSX.
+1. Copy the .inx and all the .py to inkscape extensions folder : For OS X - $HOME/.config/inkscape/extensions
+1.Open Inkscape.
+1. Activate via the Render submenu of Extensions menu.
+
+
+##Dependencies
 
 Needs Anaconda python on OS X but should work with any python 2.7* installation after modifying as per installation instructions.
 
