@@ -10,7 +10,7 @@ Source: Wikipedia
 
 ##Example Inkscape file
 
-example Inkscape file
+(example Inkscape file)[https://github.com/macbuse/kock/blob/master/koch.svg]
 
 ##Installation
 
